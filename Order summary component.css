@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+   background:url(./images/pattern-background-desktop.svg);
+   font-family: preconnect , sans-serif;
+   font-size: 16px;
+}
+
+#container{
+    background-color: white;
+    /*margin-left: 50px; 
+    margin-top: 50px;*/
+    margin: auto; 
+    margin-top: 24px;
+    border-radius: 12%;
+    width: 375px;
+    height: 600px;
+    align-items: center;
+}
+
+#titulo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.Description{
+    margin-left: 65px;
+    margin-bottom: 7.5px;
+    display: flex;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+#opçoes_de_plano_e_botoes{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    display: inline-flex;
+    align-items: center;
+}
+
+
+#notaMusical,#Opção_de_plano,#link{
+    margin-right: 0.9rem;
+    margin-left: 0.9em; ;
+    align-items: center;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+#buttons{
+    margin-top: 25px;
+    
+}
+
+#payButton{
+    background-color:hsl(245, 75%, 52%);
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+#cancelButton{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.imageFone{
+    border-top-left-radius: 14% ;
+    border-top-right-radius: 14%;
+    width: 375px;
+    height: 225px;
+   }
+
+#notaMusical{
+    width: 45px;
+    
+}
